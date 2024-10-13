@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div id="title">
+            <h1>My</h1>
+            <h1>Publication</h1>
+        </div>
+        <ul id="menulist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">BestSellers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+        <div id="check"><i class="ri-menu-fill" onclick="toggleMenu()"></i></div>
+    </nav>
+    <div id="main">
+        <div id="page1">
+            <div id="arrow">
+                <i class="ri-arrow-down-line"></i>
+            </div>
+            <div id="left-part">
+                <h5>Pen your dream on paper</h5>
+                <h5>We publish your dream</h5>
+                <p>Share your story, amplify your voice. Join our community of writers and reach a wider audience.
+                    Publish with us and make an impact on the world.</p>
+                <div id="buttons">
+                    <button>Instagram</button>
+                    <button>Facebook</button>
+                </div>
+            </div>
+            <div id="right-part">
+                <img src="https://i.pinimg.com/736x/53/08/ff/5308ffac17f0f91a4601a0a9638a7d52.jpg" alt="">
+            </div>
+        </div>
+        <div id="page2">
+            <h3>Our #BestSellers</h3>
+            <div id="book-area">
+                <div id="book-containers">
+                    <div class="books">
+                        <img src="https://i.pinimg.com/236x/cd/2d/ff/cd2dffe2d630346c6ab9c88e38528190.jpg" alt="">
+                        <div class="dets">
+                            <h3 id="heading">Author : Everina Maxwell</h3>
+                            <h5>Type : Science Fiction</h5>
+                            <h5>Language : English</h5>
+
+                        </div>
+                    </div>
+                    <div class="books">
+                        <img src="https://i.pinimg.com/enabled_lo/474x/1f/cc/27/1fcc27305ff325f14197ba35e0af72a7.jpg"
+                            alt="">
+                        <div class="dets">
+                            <h3 id="heading">Author : Kate Cunningham </h3>
+                            <h5>Type : Fantasy, Adventure</h5>
+                            <h5>Language : English</h5>
+                        </div>
+                    </div>
+                    <div class="books">
+                        <img src="https://i.pinimg.com/236x/ff/7e/17/ff7e17e5a7f6a3bc5f31de4c133e7e75.jpg" alt="">
+                        <div class="dets">
+                            <h3 id="heading">Author : Chloe Ellis</h3>
+                            <h5>Type : Mystery</h5>
+                            <h5>Language : English</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <h5>This Month's</h5>
+            <h3>Recommended Books</h3>
+            <div id="rec-books">
+                <div id="box1" class="box">
+                    <div class="dets">
+                        <h4>The Land of Clouds</h4>
+                        <h6>Author : Chloe Ellis</h6>
+                        <p>Romantic fantasy novel exploring love, self-discovery, and mysticism in a dreamy,
+                            cloud-hidden world of magic and wonder.</p>
+                    </div>
+                </div>
+                <div id="box2" class="box">
+                    <div class="dets">
+                        <h4>Sorcery of Shadows</h4>
+                        <h6>Author : Seraphina Thorne</h6>
+                        <p>Dark, captivating fantasy romance exploring magic, shadows, and forbidden love, set in a
+                            mystical realm of ancient secrets.</p>
+                    </div>
+                </div>
+                <div id="box3" class="box">
+                    <div class="dets">
+                        <h4>Deep Night</h4>
+                        <h6>Author : Ambrose Ibsen</h6>
+                        <p>Ominous, atmospheric horror novel exploring cosmic terror, eerie landscapes, and
+                            psychological dread in a small, isolated American town.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="f1">
+                <h4 class="first">My Publication</h4>
+                <h4>Prayagraj, Uttar Pradesh</h4>
+                <h4>123-456-7890</h4>
+                <h4>my_info@gmail.com</h4>
+            </div>
+            <div id="f2">
+                <h4 class="first">Shop</h4>
+                <h4>FAQ</h4>
+                <h4>Store Policy</h4>
+                <h4>Payment Methods</h4>
+            </div>
+            <div id="f3">
+                <h4 class="first">Social Media</h4>
+                <h4>Instagram</h4>
+                <h4>Facebook</h4>
+                <h4>Twitter</h4>
+            </div>
+            <p>&copy 2024 My. All rights reserved.</p>
+        </div>
+
+        <script>
+            let menuList = document.querySelector("#menulist")
+            menuList.style.maxHeight = "0px"
+
+            function toggleMenu() {
+                if (menuList.style.maxHeight == "0px") {
+                    menuList.style.maxHeight = "100vh"
+                    menuList.style.backgroundColor = "black"
+                } else {
+                    menuList.style.maxHeight = "0px"
+                }
+            }
+        </script>
+        <script src="script.js"></script>
+</body>
+
+</html>
