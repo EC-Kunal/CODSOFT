@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://db.onlinewebfonts.com/c/112747c9d417f4ef9ebddd908a1394b7?family=Media+Sans+Extended+Black"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <h1>PortFolio</h1>
+        <ul id="menulist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+        <div id="check"><i class="ri-menu-fill" onclick="toggleMenu()"></i></div>
+        <div id="s-media">
+            <a href="https://www.linkedin.com/in/akshat-kushwaha-7b49912a6/" target="_blank">
+                <h5>Linkedin</h5>
+            </a>
+            <a href="https://github.com/EC-Kunal" target="_blank">
+                <h5>Github</h5>
+            </a>
+        </div>
+
+    </div>
+    <div id="main">
+        <div id="page1">
+            <div id="intro">
+                <h1>Hii, my name is Akshat Kushwaha and I am a</h1>
+                <div class="container">
+                    <h2 class="heading">Web Developer</h2>
+                    <h3 class="sub-heading">& Programmer</h3>
+                </div>
+                <img src="./boy1-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div id="page2">
+            <div id="top">
+                <h4>About me</h4>
+                <p>A Passionate Developer <br> who loves to code</p>
+            </div>
+            <div id="info">
+                <div id="left-info">
+                    <img src="./web-developer.svg" alt="">
+                </div>
+                <div id="right-info">
+                    <h5>ABout Me</h5>
+                    <p>Hi, I'm Akshat Kushwaha, a driven BCA student at University of Allahabad, passionate about web
+                        development and data structures.</p>
+                    <p> With a strong foundation in programming languages such as Java, C, and JavaScript, I excel in
+                        building responsive web applications using HTML, CSS, JS and various other libraries. Proficient
+                        in data structures and algorithms, I try to deliver efficient solutions.</p>
+                    <p> I'm eager to apply my skills in real-world projects and collaborations, seeking internships and
+                        job opportunities in web development and software engineering. Let's connect!</p>
+                    <button class="elem">
+                        <h4>Download CV</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="page3">
+            <h4>Skills</h4>
+            <h5>What I am Good At!</h5>
+            <div id="skills">
+                <img src="https://i.pinimg.com/236x/a2/7d/14/a27d14a27b5ef7d35c241d5cc9c1deb4.jpg" alt="">
+                <img src="https://i.pinimg.com/736x/5e/42/c9/5e42c926feb229f934d3089d89c26e2f.jpg" alt="">
+                <img src="https://i.pinimg.com/736x/28/b0/d1/28b0d189571e22609f0e9378da7b09a4.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/85/44/da/8544dac44077c26e351801c7181a9e12.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/c2/6a/73/c26a73b45b9a801864f13edeb0aa2cfb.jpg" alt="">
+                <img src="https://i.pinimg.com/236x/0f/65/58/0f6558f88fb457e68f92c042df252892.jpg" alt="">
+            </div>
+        </div>
+        <div id="page4">
+            <h4>Projects</h4>
+            <h5>Some of my recent creations</h5>
+            <div id="projects">
+                <div class="project">
+                    <img src="https://i.pinimg.com/control/236x/a1/1e/df/a11edff0413f7b840fd71fab1dcd9924.jpg" alt="">
+                    <a href="https://raw.githack.com/EC-Kunal/WEB_PROJECTS/refs/heads/main/Portfolio2/index.html"
+                        target="_blank">PortFolio</a>
+                </div>
+                <div class="project">
+                    <img src="https://i.pinimg.com/236x/3b/ed/13/3bed137c68670e77b90a26ce2a5ce0ae.jpg" alt="">
+                    <a id="mp" href="https://raw.githack.com/EC-Kunal/WEB_PROJECTS/refs/heads/main/SIDCUP%20FAMILY%20GOLF/index.html" target="_blank">Sidcup Golf</a>
+                </div>
+                <div class="project">
+                    <img src="https://i.pinimg.com/control/564x/28/6d/03/286d03706adbc2817c0ac0ce047f6dea.jpg" alt="">
+                    <a id="mp" href="#">Music Player</a>
+                </div>
+                <div class="project">
+                    <img src="data:image/png;base64,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"
+                        alt="">
+                    <a id="mp" href="https://raw.githack.com/EC-Kunal/WEB_PROJECTS/refs/heads/main/PROJECT2/index.html"
+                        target="_blank">Two Good Co</a>
+                </div>
+            </div>
+        </div>
+        <div id="page5">
+            <h4>Contact</h4>
+            <h5>Get in touch with me</h5>
+            <div id="contact">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+
+            <div id="social">
+                <a href="https://www.linkedin.com/in/akshat-kushwaha-7b49912a6/" target="_blank">
+                    <h5><i class="ri-linkedin-fill">Linkedin</i></h5>
+                </a>
+                <a href="https://github.com/EC-Kunal" target="_blank">
+                    <h5><i class="ri-github-fill">Github</i></h5>
+                </a>
+                <a href="https://www.instagram.com/kunal__2407/" target="_blank">
+                    <h5><i class="ri-instagram-fill">Instagram</i></h5>
+                </a>
+
+
+            </div>
+            <p>&copy; 2024 Akshat Kushwaha. All rights reserved.</p>
+        </div>
+    </div>
+    <script>
+        let menuList = document.querySelector("#menulist")
+        menuList.style.maxHeight = "0px"
+
+        function toggleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "100vh"
+                menuList.style.backgroundColor = "black"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
